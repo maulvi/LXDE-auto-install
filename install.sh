@@ -4,7 +4,7 @@
 # script to fetch and install LXDE for x64/x86 debian/ubuntu
 ###########################################################################
 ## define packages
-packages="lxde lxterminal iceweasel nano apt-utils software-properties-common"
+packages="lxde lxterminal midori nano apt-utils software-properties-common"
 ##
 ## display welcome
 clear
@@ -28,8 +28,7 @@ fi
 ##
 echo "Updating Package List"
 echo ""
-	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-	apt-get update
+	apt-get update && apt-get upgrade
 echo ""
 echo "Installing Remote LXDE Desktop"
 echo ""
@@ -45,6 +44,7 @@ read -p "Add a new user? (y/n) " RESP
 		read -p "What would you like the username to be?   " username
 		adduser --gecos "" $username
 	fi
+reboot
 ##
 echo "########################################################################"
 echo "#################             Install Complete         #################"
