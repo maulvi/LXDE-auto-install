@@ -35,7 +35,7 @@ echo ""
 	apt-get install -y --no-install-recommends $packages
 	clear
 ## non-root user setup ##
-echo "You cannot login to NoMachine as root"
+echo "Almost there....."
 echo "If you already have a non-root user, you don't have to add another."
 echo ""
 ##
