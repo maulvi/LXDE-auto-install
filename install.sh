@@ -28,7 +28,7 @@ fi
 ##
 echo "Updating Package List"
 echo ""
-	apt-get update && apt-get upgrade
+	apt-get update && apt-get upgrade -y
 echo ""
 echo "Installing Remote LXDE Desktop"
 echo ""
