@@ -4,7 +4,7 @@
 # script to fetch and install LXDE for x64/x86 debian/ubuntu
 ###########################################################################
 ## define packages
-packages="lxde lxterminal iceweasel"
+packages="lxde lxterminal iceweasel nano apt-utils software-properties-common"
 ##
 ## display welcome
 clear
