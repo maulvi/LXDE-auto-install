@@ -9,7 +9,7 @@ packages="lxde lxterminal iceweasel"
 ## display welcome
 clear
 echo ""
-echo "Welcome to LXDE & NX Installer by SonicBoxes.com"
+echo "Welcome to LXDE & NX Installer"
 echo "This script is designed to be run on a fresh install"
 ##
 ## check if root user ##
