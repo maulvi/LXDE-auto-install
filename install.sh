@@ -1,10 +1,10 @@
 #!/bin/bash
 ##########################################################################
-##  NoMachine 3.5 + LXDE + Firefox/Iceweasel Install Script ##
+##  NoMachine 3.5 + LXDE + xrdp Install Script ##
 # script to fetch and install LXDE for x64/x86 debian/ubuntu
 ###########################################################################
 ## define packages
-packages="lxde lxterminal midori nano apt-utils software-properties-common"
+packages="lxde lxterminal midori xrdp gftp nano apt-utils software-properties-common"
 ##
 ## display welcome
 clear
